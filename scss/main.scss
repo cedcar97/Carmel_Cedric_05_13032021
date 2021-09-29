@@ -1,0 +1,186 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+body{
+    margin: auto;
+}
+.container{
+    &-fluid{
+       
+        background-color: #f3e9f1 ;
+        color: #db6b2f;
+        display: flex;
+        
+        flex-flow: column nowrap;
+        align-items: center;
+        
+    }
+}
+.row{
+    width: 80%;
+   border: solid #e7d2e3 3px;
+    border-radius: 10px;
+    }
+
+
+.col-4{
+    text-align: center;
+}
+
+#cameras{
+
+max-width: 1600px;
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+justify-content: space-around;
+margin-bottom: 50px;
+
+}
+
+h2{
+width: 100%;
+height: fit-content;
+text-align: center;
+margin-bottom: 50px;
+}
+
+.content-products{
+    width: 420px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: #e7d2e3;
+        border: #e7d2e3 solid 3px;
+        border-radius: 5%;
+        margin-bottom: 20px;
+    &-tittle{
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        
+        
+
+    }
+
+
+    
+    &-cadre{
+    height: 300px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 5%;
+    &-img{
+        height: 100%;
+        width: auto;
+    }
+
+    &-desc{
+        text-align: center;
+
+    }
+
+
+}
+
+}
+
+#product{
+    height: 80vh;
+display: flex;
+max-width: 900px;
+display: flex;
+flex-flow: column-reverse  nowrap;
+align-items: center;
+justify-content: space-around;
+
+}
+
+#Votre_Panier{
+
+    width: 250px;
+    
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    
+
+}
+#Menu{
+display: flex;
+line-height:15px;
+
+flex-flow: column nowrap;
+justify-content: center;
+align-items: center;
+
+  
+}
+
+ li{
+    text-align: center;
+    list-style: none;
+}
+
+.Menu-deroulant{
+    text-align: center;
+    &-lense{
+        height: 30px;
+        overflow: hidden;
+       
+
+
+    }
+    
+   
+   
+
+   }
+form{
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    height: 72vh;
+
+    & button{
+        margin-top: 30px;
+    }
+
+}
+
+a{
+    color: #db6b2f;
+    text-decoration: none;
+    & :hover{
+        color: #935fd1;
+    }
+  
+}
+
+button{
+    background: linear-gradient(#f79e6f,#935fd1) ;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.header{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 80%;
+    height: fit-content;
+    margin-bottom:50px ;
+}
+
+.footer{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 80%;
+    align-items: center;
+    
+    height: fit-content;
+    margin-bottom:50px ;
+}
+
