@@ -18,10 +18,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OpenClassrooms-Student-Center/JWDP5.git"
+    "url": "git+https://github.com/cedcar97/oricono"
   },
   "bugs": {
-    "url": "https://github.com/OpenClassrooms-Student-Center/JWDP5/issues"
+    "url": "https://github.com/cedcar97/oricono/issues"
   },
-  "homepage": "https://github.com/OpenClassrooms-Student-Center/JWDP5#readme"
+  "homepage": "https://github.com/cedcar97/oricono#readme"
 }
