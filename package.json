@@ -18,7 +18,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cedcar97/oricono"
+    "url": "git+https://github.com/cedcar97/oricono.git"
   },
   "bugs": {
     "url": "https://github.com/cedcar97/oricono/issues"
