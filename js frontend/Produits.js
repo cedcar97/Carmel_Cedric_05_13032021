@@ -173,7 +173,7 @@
                                          bt_VotrePanier.innerText = "Ajouter à votre panier";
                                          bt_VotrePanier.addEventListener('click',function(event){
                                              
-                                             event.preventDefault();
+                                             
                                             
                                              
                                             if(articles!=""){

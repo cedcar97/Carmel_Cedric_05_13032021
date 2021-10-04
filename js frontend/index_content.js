@@ -67,7 +67,7 @@ function readCookie(name) {
                     {    // adapte le contenu Produit à l'élément cliqué
                      
                        
-                       event.preventDefault()
+                       
                         const info0 = camera.name;
                         const info1 = camera.price;
                         const info2 = camera.imageUrl;
