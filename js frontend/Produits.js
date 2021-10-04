@@ -3,7 +3,7 @@
         
         
         
-       let  ProductInfo = document.cookie;
+       
        
 
 
@@ -30,8 +30,9 @@
         
     }
 
-        readCookie(ProductInfo)
-        console.log(document.cookie)
+        let ProductInfo=readCookie("ProductInfo")
+        console.log(ProductInfo)
+       
          
         
         const word = ProductInfo.split(",")
@@ -47,7 +48,7 @@
        
 
    
-         let articles = [];
+         
 
          
          
@@ -97,60 +98,14 @@
                                      
                                      let lenseResult = document.getElementById("dropdownMenuButton");
                                             lenseResult.innerText = Plenses[n];
-                                            article=[Pname,Pprice,PimageUrl,Pid,Plenses[n]];
+                                            var article=[Pname,Pprice,PimageUrl,Pid,Plenses[n]];
                                             
-                                            let liste_Articles ="";
-                                            
-                                            
-                                            
-                                            
-                                            
+                                          
                                             
                                            
-
                                             
-                                            if(articles.length==0){
-                                                articles.push(article)
-                                                createCookie(liste_Articles,articles,1)
-                                               
-
-                                            }
-                                            else{
-                                                let c=0;
-                                                for(a of articles){
-                                                    
-                                                    if(JSON.stringify(article)!=JSON.stringify(a)){
-                                                        c++;
-
-                                                        if(c==articles.length){
-                                                        articles.push(article)
-                                                        createCookie(liste_Articles,articles,1)
-                                                        
-                                                       
-                                                       
-                                                       
-                                                         
-
-                                                        
-                                                        }
-                                                        else{
-
-                                                        }
-                                                       
-                                                    }
-                                                    else{
-                                                        
-                                                    }
-
-                                                    
-                                                
-                                                
-    
-                                                }
-                                                
-                                                
-                                            };
-                                           
+                                            createCookie("liste_Articles",article,1)
+                                                                                       
 
                                     })
                                     
@@ -176,7 +131,7 @@
                                              
                                             
                                              
-                                            if(articles!=""){
+                                            if( readCookie("liste_Articles")!=null){
                                                 document.location.href="Votre_Panier.html"
 
                                                 

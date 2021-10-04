@@ -67,7 +67,7 @@ function readCookie(name) {
                     {    // adapte le contenu Produit à l'élément cliqué
                      
                        
-                       
+                      
                         const info0 = camera.name;
                         const info1 = camera.price;
                         const info2 = camera.imageUrl;
@@ -76,10 +76,10 @@ function readCookie(name) {
                         
                         const info = [info0,info1,info2,info3,info4];
 
-                        let ProductInfo=""
+                       
                         
-                        createCookie(ProductInfo,info,1);
-                        let Pinfo = readCookie(ProductInfo);
+                        createCookie("ProductInfo",info,1);
+                        let Pinfo = readCookie("ProductInfo");
                        
                         console.log(Pinfo );
 
