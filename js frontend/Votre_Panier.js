@@ -115,9 +115,9 @@ let EnvoyerInfo =document.getElementById("Envoyer");
         address:document.forms["contact"].address.value,
         email:document.forms["contact"].email.value,  
       }
-  decodedEmail=contact.email.split(/[@\\.]/)
-  console.log(decodedEmail)
-if (decodedEmail.length==3){
+      decodedEmail=contact.email.split(/[@\\.]/)
+      console.log(decodedEmail)
+      if (decodedEmail.length==3){
 
      
         
@@ -128,7 +128,7 @@ if (decodedEmail.length==3){
         console.log(data)
 
         fetch("http://localhost:3000/api/cameras/order", {
-	    method: "Post",
+	       method: "Post",
 	headers: { 
     'Accept': 'application/json', 
     'Content-Type': 'application/json' 
